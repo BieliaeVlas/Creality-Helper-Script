@@ -74,5 +74,4 @@ fi
 rm -rf /root/.cache
 set_paths
 set_permissions
-update_menu
-main_menu
+install_moonraker_nginx

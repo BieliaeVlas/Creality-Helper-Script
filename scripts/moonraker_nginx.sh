@@ -31,10 +31,8 @@ function moonraker_3v3_message(){
 
 function install_moonraker_nginx(){
   moonraker_nginx_message
-  local yn
   while true; do
-    install_msg "Moonraker and Nginx" yn
-    case "${yn}" in
+    case "y" in
       Y|y)
         echo -e "${white}"
         echo -e "Info: Extracting Moonraker files..."
